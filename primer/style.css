@@ -1,0 +1,25 @@
+.widget {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    display: flex;
+  }
+  .widget-header {
+    background-color: #1976d2;
+    flex: 0 0 15px;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .widget-header > span {
+    color: #fff;
+    font-size: 10px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+  }
+  .widget-content {
+    border: 1px solid blue;
+    flex: 1;
+  }

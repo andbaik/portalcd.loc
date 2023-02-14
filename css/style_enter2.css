@@ -1,0 +1,204 @@
+.form_auth{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px 0;
+}
+h3{
+    color: red;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.forms_item{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    margin-top: 40px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+form input, select{
+    width: 90%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form button{
+    width: 200px;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #a7a7a7;
+    border: 2px solid rgb(78, 77, 77);
+    color: #000;
+    font-weight: 600;
+    transition: transform 500ms ease;
+    margin-top: 20px;
+    
+
+}
+
+form button:hover{
+    transform: scale(1.1);
+}
+
+.error-block{
+    
+    border: 1px solid red;
+    font-size: 22px;
+    color: red;
+    display: none;
+}
+.selected{
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.selected > input{
+    width: 40px;
+
+}
+.selected > label{
+    width: 30px;
+}
+#surname, #name, #patronomic {
+    width: 200px;
+}
+#branch, #post, #login, #email,
+#password, #password2, #date_br, #sort {
+    width: 334px;
+    height: 41px;
+}
+
+#room, #telephone,#telephone_s,
+#telephone_f, #telephone_m {
+    width: 150px;
+}
+.block_last > label{
+    width: 300px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.block_reg{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.form_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.block_last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    vertical-align: middle;
+}
+.block_br > select{
+    width: 350px;
+}
+.admin_branch {
+    width: 350px;
+}
+.ruk {
+    width: 180px;
+    margin-right: 0 10px;
+}
+.fio, .branch, .login, .password {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_auth .info{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+.form_auth .info .error-mess{
+    font-size: large;
+    color: red;
+    text-align: center;
+
+}
+.form_reg .info{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+.form_reg .info .error-mess{
+    font-size: large;
+    color: red;
+    text-align: center;
+
+}
+.first_section, .second_section, .third_section{
+    display: flex;
+    justify-content: space-around;
+}
+.first_section > .row {
+    width: 33%;
+}
+.what_violation{
+    width: 99%;
+    margin: 0 auto;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 7px;
+}
+.second_section > .row, .third_section > .row{
+    width: 49%;
+}
+.forms_item  .row{
+    margin-top: 10px;
+}
+#error-block{
+    display: none;
+    width: 98%;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+    font-size: 16px;
+    color: red;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}

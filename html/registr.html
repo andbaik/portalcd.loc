@@ -1,0 +1,62 @@
+<div class="form_reg">
+
+    <form action="#" method="post" class="forms_item">
+        <h2>Регистрация на сайте:</h2>
+
+        <h3>Поля со звездочкой обязательны для заполнения!</h3>
+            <div class="fio">
+                <div class="surname">
+                    <label for="surname">Фамилия</label>
+                    <input type="text" name="surname" id="surname" placeholder="*Фамилия" value="<?=$_SESSION["surname"]?>">
+                </div>
+                <div class="name">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="name" placeholder="*Имя" value="<?=$_SESSION["name"]?>">
+                </div>
+                <div class="patronomic">
+                    <label for="patronomic">Отчество</label>
+                    <input type="text" name="patronomic" id="patronomic" placeholder="*Отчество" value="<?=$_SESSION["patronomic"]?>">
+                </div>
+            </div>
+            <div class="branch">
+                <div class="br">
+                    <label for="branch">Подразделение ЦД, Д и т.д.</label>
+                    <input type="text" name="branch" id="branch" placeholder="*Подразделение (ЦД, Д, и т.д.)" value="<?=$_SESSION["branch"]?>">
+                </div>
+                <div class="post">
+                    <label for="post">Должность</label>
+                    <input type="text" name="post" id="post" placeholder="Должность" value="<?=$_SESSION["post"]?>">
+                </div>
+            </div>
+            <div class="login">
+                <div class="log">
+                    <label for="login">Введите логин</label>
+                    <input type="text" name="login" id="login" placeholder="*Логин" value="<?=$_SESSION["login"]?>">
+                </div>
+                <div class="email">
+                    <label for="email">Адрес электронной почты</label>
+                    <input type="email" name="email" id="email" size="30" placeholder="*Адрес электронной почты" value="<?=$_SESSION["email"]?>">
+                </div>
+            </div>
+            <div class="password">
+                <div class="pass">
+                    <label for="password">Введите пароль</label>
+                    <input type="password" name="password" id="password" placeholder="*Пароль">
+                </div>
+                <div class="pass2">
+                    <label for="password2">Повторите пароль</label>
+                    <input type="password" name="password2" id="password2" placeholder="*Повторите пароль">
+                </div>
+            </div>
+        <div class="info">
+            <div class="error-mess" id="error-block"></div>
+        </div>
+        <div class="form_btn">
+            <button type="button" id = "user_reg">Зарегистрироваться</button>
+            <button type="button" id = "history-button">Назад</button>            
+        </div>
+
+
+
+    </form>
+</div>
