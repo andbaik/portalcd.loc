@@ -1,6 +1,6 @@
 <?php
     $user = 'u29306_andbaik';
-    $password = 'Hoot@elah100315';
+    $password = '';
     $db = 'u29306_portalcd';
     $host = '109.95.211.97';
 
