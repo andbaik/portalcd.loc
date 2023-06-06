@@ -1,0 +1,42 @@
+<div class="form_reg">
+
+    <form class="forms_item">
+        <h2>Регистрация на сайте:</h2>
+
+        <h3>Поля со звездочкой обязательны для заполнения!</h3>
+            
+            <div class="railway">
+                <label for="railway">Принадлежность (ЦД, Д, ДЦС, ДС)</label>
+                <select name="railway" id="railway">
+                    <option <?php echo $edit == 1 ? "value = $row->id_depat" : '' ?>><?php echo $edit == 1 ? $row->depat : 'Укажите службу/управление' ?></option>
+                    <?php echo $html1 ?>
+                </select>
+            </div>
+
+
+
+
+
+
+            <div class="password">
+                <div class="pass">
+                    <label for="password">Введите пароль</label>
+                    <input type="password" name="password" id="password" placeholder="*Пароль">
+                </div>
+                <div class="pass2">
+                    <label for="password2">Повторите пароль</label>
+                    <input type="password" name="password2" id="password2" placeholder="*Повторите пароль">
+                </div>
+            </div>
+        <div class="info">
+            <div class="error-mess" id="error-block"></div>
+        </div>
+        <div class="form_btn">
+            <button type="button" id = "user_reg">Зарегистрироваться</button>
+            <button type="button" id = "history-button">Назад</button>            
+        </div>
+
+
+
+    </form>
+</div>

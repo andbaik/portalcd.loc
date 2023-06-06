@@ -1,0 +1,21 @@
+<div class="form_files">
+    <form class="files" id="data" method="POST" enctype="multipart/form-data">
+
+        <label for="report">Прикрепите отчет, который был направлен для снятия с контроля предписание: </label>
+        <input type="file" id="report" name="report">
+
+        <input type="hidden" name="id_rp" id="id_rp" value=<?= $id ?>>
+        <input type="hidden" name="id_user" id="id_user" value="<?= $id_user ?>" placeholder="<?= $id_user ?>">
+
+        <div class="error">
+            <div class="error-mess" id="error-block"></div>
+        </div>
+        <div class="form_btn">
+            <button>Прикрепить</button>
+            <button type="button" id="history-button">Назад</button>
+        </div>
+    </form>
+
+</div>
+
+

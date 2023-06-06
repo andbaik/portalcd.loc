@@ -1,0 +1,196 @@
+.container{
+    width: 1280px !important;
+}
+.container p{
+    text-align: right;
+    margin-right: 20px;
+    
+}
+
+table.iksweb {
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+table.iksweb th{
+    font-weight:normal;
+    font-size:14px;
+    color:#ffffff;
+    background-color: #3E3D3D;
+    }
+table.iksweb td{
+    font-size:13px;
+    color:#354251;
+}
+table.iksweb td,table.iksweb th{
+    padding:5px 5px;
+    line-height:13px;
+    vertical-align: middle;
+    border: 1px solid #939b87;
+}	
+/*table.iksweb tr:hover{
+    background-color:#f9fafb
+}*/
+table.iksweb tr:hover td{
+    color:#354251;
+    cursor:default;
+}
+.mobile-table{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+.color_red{
+    background: rgba(233, 145, 145, 0.651);
+}
+.color_green{
+    background: rgb(182, 221, 182) ;
+}
+.color_yellow{
+    background: rgba(252, 252, 185, 0.753);
+}
+.color_black{
+    background: #000;
+}
+.color_blank{
+    background: #ffffff;
+}
+.cubs{
+    display: flex;
+}
+.cub{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(68, 67, 67);
+    margin-right: 3px;
+}
+.cub:last-child{
+    margin-right: 0;
+}
+
+i{
+    font-size: 13px;
+    margin: 5px 0;
+}
+.main > .container > .style__date{
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: right;
+}
+.editr{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    
+
+}
+.edit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    vertical-align: top;
+}
+.edit_1{
+    width: 100%;
+    height: 20%;
+    text-align: right;
+}
+.edit_3{
+    margin-top: 5px;
+}
+#edit span i{
+    margin-top: 3px;
+}
+
+table.iksweb td span i {
+    color:rgb(150, 1, 1);
+    font-size: 0.7rem;
+}
+table.iksweb td span i:hover {
+    color:rgb(235, 2, 2);
+    font-weight: bold;
+}
+.popup p{
+    font-size: 20px;
+    font-weight: 800;
+    color: inherit;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form input{
+    width: 80%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form button{
+    border: 2px solid rgb(104, 103, 103);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #a7a7a7;
+    color: rgb(56 53 53);
+    transition: transform 500ms ease;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+form button:hover{
+    transform:translateY(-5px);
+}
+.form_files{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#date_rem{
+    width: 250px;
+}
+
+.headerTable{
+    padding-left: 20px;
+}
+.headerTable__right{
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.headerTable__right a,
+.headerTable__left a{
+    transition: all 600ms ease;
+    font-size: 17px;
+}
+.headerTable__left i, .headerTable__right i{
+    font-size: 18px;
+}
+
+.headerTable__right a:hover,
+.headerTable__left a:hover {
+    color: red !important;
+}
+
+.date {
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.error-mess{
+    color: red;
+}
